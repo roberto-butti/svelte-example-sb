@@ -28,7 +28,7 @@ export async function load() {
     const { data } = await storyblokApi.get("cdn/stories/home", {
         version: "draft",
     });
-    console.log(data.story)
+    // console.log(data.story)
     return {
         story: data.story
     }
